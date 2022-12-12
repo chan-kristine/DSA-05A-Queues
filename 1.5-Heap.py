@@ -1,4 +1,4 @@
-from heapq import heappush
+from heapq import heappush, heappop
 
 fruits = []
 
@@ -9,4 +9,7 @@ heappush(fruits, "apple")
 print(fruits)
 
 heappush(fruits, "banana")
+print(fruits)
+
+heappop(fruits)
 print(fruits)
